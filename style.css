@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    padding: 50px;
+    text-align: center;
+    background: purple;
+    color: black;
+}
+.navbar{
+    display:flex;
+    background-color: black;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .main {
+    flex: 70%;
+    background-color: rgb(114, 111, 111);
+    padding: 20px;
+  }
+  .side {
+    flex: 30%;
+    background-color: purple;
+    padding: 20px;
+  }
+  .fimg {
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    padding: 20px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: black;
+  }
